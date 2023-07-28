@@ -1,5 +1,4 @@
-use core::slice;
-use std::{io::Read, result};
+use std::io::Read;
 
 fn add(x: i32, y: i32) -> i32 {
     x + y // 没有分号就是直接返回
