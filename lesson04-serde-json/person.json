@@ -1,0 +1,11 @@
+{
+    "name": "John Doe",
+    "age": 43,
+    "address": {
+        "street": "main",
+        "city": "Downtown"
+    },
+    "phones": [
+        "27726550023"
+    ]
+}
