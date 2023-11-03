@@ -126,7 +126,7 @@ fn main() {
         println!("result: {}", result);
     }
 
-    let addresses: Vec<String> = (0..10).map(|x| format!("ping -c1 10.21.4.{}", x)).collect();
+    let addresses: Vec<String> = (0..10).map(|_x| format!("ping -c1 www.baidu.com")).collect();
     for result in addresses.with_threads(10).map(|cmd| shell(&cmd)) {
         println!("result: {:#?}", result);
     }
